@@ -1,0 +1,67 @@
+x = 38
+
+print('Здрасте')
+if x < 0:
+    print('меньше чем 0')
+else:
+    print('больше чем 0')
+print('покеда')
+
+
+print('Вторая попытка')
+a, b = 10, 5
+if a > b:
+    print('a > b')
+else:
+    print('b > a')
+
+if a > b and a > 0:
+    print('успех')
+else:
+    print('провал')
+
+if (a > b) and (a > 0 or b < 1000):
+    print('успех')
+else:
+    print('провал')
+
+if 5 < b and b < 10:
+    print('успех')
+else:
+    print('провал')
+
+
+print('Третья попытка')
+
+if '34' > '123':
+    print('успех')
+else:
+    print('провал')
+
+if '123' > '12':
+    print('успех')
+else:
+    print('провал')
+
+if [1 , 2] > [1, 1]:
+    print('успех')
+else:
+    print('провал')
+
+
+
+print('Четвертая попытка')
+
+#if '6' > 5:
+ #   print('успех')
+#else:
+#    print('провал')
+
+#if [5, 6] > 5:
+#    print('успех')
+#else:
+#    print('провал')
+if '6' != 5:
+    print('успех')
+else:
+    print('провал')
